@@ -1,8 +1,8 @@
 # CPU Pong Project
 
-## Overview
+### Overview
 
-## Finite State Machine
+### Finite State Machine
 The FSM operates in the following states:
 
 
@@ -18,7 +18,7 @@ Jex: Handle jump instructions, including JAL (jump-and-link) and RET.
 
 Write-Back (RegWb, MemWb, JexWB): Write results back to registers or memory.
 
-## Key Components
+### Key Components
 Instruction Register: Holds the fetched 16-bit instruction.
 
 Register File: Contains the general-purpose registers.
@@ -33,7 +33,7 @@ PC Control Module: Updates the PC for jump instructions.
 
 Muxes and Control Signals: Allow proper data flow and state transitions.
 
-## Memory System
+### Memory System
 The CPU utalizes a random access memory (RAM) with the following properties: 
 
 
@@ -47,7 +47,7 @@ Memory-Mapped I/O: The memory includes hard-coded addresses for controller inter
 
 - Two memory addresses are mapped to retrieve data directly from the controller.
 
-## Instructions Supported
+### Instructions Supported
 #### ALU Instructions
 ADD, ADDI, SUB, SUBI, AND, ANDI, OR, ORI, XOR, XORI, CMP, CMPI, LSH, LSHI, RSH, RHSI
 #### Memory Instructions
