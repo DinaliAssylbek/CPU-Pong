@@ -26,8 +26,7 @@ Jex: Handle jump instructions, including JAL (jump-and-link) and RET.
 
 Write-Back (RegWb, MemWb, JexWB): Write results back to registers or memory.
 
-![1](https://github.com/user-attachments/assets/f16008ce-ff1f-4b9d-8f8d-025855a9dfc5)
-
+![1 (1)](https://github.com/user-attachments/assets/6d1462c4-9ce7-403f-b9ec-45b2cd2c577e)
 
 ### Key Components
 Instruction Register: Holds the fetched 16-bit instruction.
