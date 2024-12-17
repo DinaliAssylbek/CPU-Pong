@@ -2,6 +2,14 @@
 
 ### Overview
 
+This project implements a CPU that follows the CR-16 instruction set architecture. The CPU operates with the following key specifications:
+
+Clock Frequency: 50 Hz
+
+Maximum CPI (Cycles Per Instruction): 6
+
+Memory: Dual-port, 512 KB RAM
+
 ### Finite State Machine
 The FSM operates in the following states:
 
