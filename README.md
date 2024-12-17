@@ -2,7 +2,9 @@
 
 ### Overview
 
-This project implements a CPU that follows the CR-16 instruction set architecture. The CPU operates with the following key specifications:
+This project implements a CPU that follows the CR-16 instruction set architecture. The CPU is designed as part of a larger project to create the classic Pong game for CS 3710 at the University of Utah.
+
+The CPU operates with the following key specifications:
 
 Clock Frequency: 50 Hz
 
