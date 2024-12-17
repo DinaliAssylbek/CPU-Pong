@@ -2,9 +2,7 @@
 
 ### Overview
 
-This project implements a CPU that follows the CR-16 instruction set architecture. The CPU is designed as part of a larger project to create the classic Pong game for CS 3710 at the University of Utah.
-
-The CPU operates with the following key specifications:
+This project implements a CPU that follows the CR-16 instruction set architecture. The CPU is designed as part of a larger project to create the classic Pong game for CS 3710 at the University of Utah. The CPU operates with the following key specifications:
 
 Clock Frequency: 50 Hz
 
@@ -27,6 +25,9 @@ MemEx: Perform memory access for load/store instructions.
 Jex: Handle jump instructions, including JAL (jump-and-link) and RET.
 
 Write-Back (RegWb, MemWb, JexWB): Write results back to registers or memory.
+
+![1](https://github.com/user-attachments/assets/f16008ce-ff1f-4b9d-8f8d-025855a9dfc5)
+
 
 ### Key Components
 Instruction Register: Holds the fetched 16-bit instruction.
@@ -64,3 +65,7 @@ ADD, ADDI, SUB, SUBI, AND, ANDI, OR, ORI, XOR, XORI, CMP, CMPI, LSH, LSHI, RSH, 
 LOAD, STOR, LUI, MOV, MOVI
 #### Jump Instructions
 Jcond, Bcond, JAL, RET
+
+### Data Path Diagram
+![2](https://github.com/user-attachments/assets/5746f48c-e8ac-429c-a4a8-c2072cd9ef24)
+
