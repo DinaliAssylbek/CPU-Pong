@@ -65,6 +65,6 @@ LOAD, STOR, LUI, MOV, MOVI
 #### Jump Instructions
 Jcond, Bcond, JAL, RET
 
-### Data Path Diagram
+## Data Path Diagram
 ![2](https://github.com/user-attachments/assets/5746f48c-e8ac-429c-a4a8-c2072cd9ef24)
 
